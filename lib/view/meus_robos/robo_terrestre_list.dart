@@ -134,7 +134,7 @@ class _RoboTerrestreListScreenState extends State<RoboTerrestreListScreen> {
           onTap: () async {
             await Navigator.pushNamed(
               context,
-              "/detalhesRoboTerrestre",
+              "/detalhesroboterrestre",
               arguments: robos
             );
 

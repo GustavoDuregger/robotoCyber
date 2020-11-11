@@ -69,7 +69,7 @@ class _AnimacaoTreinamentoState extends State<AnimacaoTreinamento> {
               ),
             ),
             onTap: () async {
-              Navigator.pushNamed(context, "/meusrobosoptions");
+              Navigator.pushNamed(context, "/");
             },
           ),
         ],

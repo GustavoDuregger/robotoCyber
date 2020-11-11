@@ -133,7 +133,7 @@ class _RoboArtificialListScreenState extends State<RoboArtificialListScreen> {
           onTap: () async {
             await Navigator.pushNamed(
               context,
-              "/detalhesRoboArtificial",
+              "/detalhesroboartificial",
               arguments: robos
             );
 
