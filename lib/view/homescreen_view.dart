@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               margin: EdgeInsets.all(10),
                             ),
                           ),
-                          onTap: () async {},
+                          onTap: () async {Navigator.pushNamed(context, "/construirrobofirststep");},
                         ),
                         GestureDetector(
                           child: new Container(

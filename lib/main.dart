@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:roboto/view/chatbot_view.dart';
+import 'package:roboto/view/construir_robo/first_step_view.dart';
 import 'package:roboto/view/controle_view.dart';
 import 'package:roboto/view/equipe_view.dart';
 import 'package:roboto/view/meus_robos/robo_drone_list.dart';
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
         '/meusrobosoptions':(context)=>MeusRobosOptions(),
         '/robodronelist':(context)=>RoboDroneListScreen(),
         '/roboterrestrelist':(context)=>RoboTerrestreListScreen(),
-        '/roboartificiallist':(context)=>RoboArtificialListScreen()
+        '/roboartificiallist':(context)=>RoboArtificialListScreen(),
+        '/construirrobofirststep':(context)=>FirstStep()
       });
   }
 }

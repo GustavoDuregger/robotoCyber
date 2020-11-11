@@ -14,15 +14,18 @@ class _MeusRobosOptionsState extends State<MeusRobosOptions> {
             appBar: AppBar(
                 title: Text("Meus Robôs"),
                 backgroundColor: Colors.deepPurpleAccent[400], elevation: 0,),
-            backgroundColor: Colors.deepPurpleAccent[400],
+            backgroundColor: Colors.white,
             body: Center(
                 child: ListView(children: <Widget>[
+                  new Padding(
+                      padding:
+                          new EdgeInsets.only(top: 30),),
               GestureDetector(
                 child: Card(
                   semanticContainer: true,
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: Image.asset(
-                    'assets/chatbot.jpg',
+                    'assets/drone.jpg',
                     fit: BoxFit.fill,
                   ),
                   shape: RoundedRectangleBorder(
@@ -41,7 +44,7 @@ class _MeusRobosOptionsState extends State<MeusRobosOptions> {
                   semanticContainer: true,
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: Image.asset(
-                    'assets/chatbot.jpg',
+                    'assets/terrestre.jpg',
                     fit: BoxFit.fill,
                   ),
                   shape: RoundedRectangleBorder(
@@ -60,7 +63,7 @@ class _MeusRobosOptionsState extends State<MeusRobosOptions> {
                   semanticContainer: true,
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: Image.asset(
-                    'assets/propaganda.jpg',
+                    'assets/artificicial.jpg',
                     fit: BoxFit.fill,
                   ),
                   shape: RoundedRectangleBorder(
