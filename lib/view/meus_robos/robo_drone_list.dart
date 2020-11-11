@@ -132,7 +132,7 @@ class _RoboDroneListScreenState extends State<RoboDroneListScreen> {
           onTap: () async {
             await Navigator.pushNamed(
               context,
-              "/detalhesRoboDrone",
+              "/detalhesrobodrone",
               arguments: robos
             );
 

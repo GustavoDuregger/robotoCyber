@@ -8,6 +8,9 @@ import 'package:roboto/view/equipe_view.dart';
 import 'package:roboto/view/meus_robos/robo_drone_list.dart';
 import 'package:roboto/view/meus_robos/robo_terrestre_list.dart';
 import 'view/construir_robo/criar_robo_artificial.dart';
+import 'view/detalhes_robo/animacao_treinamento.dart';
+import 'view/detalhes_robo/detalhes_robo_drone_screen.dart';
+import 'view/detalhes_robo/treinarcognicao_drone_view.dart';
 import 'view/homescreen_view.dart';
 import 'view/meus_robos/meus_robos_options.dart';
 import 'view/meus_robos/robo_artificial_list.dart';
@@ -37,7 +40,10 @@ class MyApp extends StatelessWidget {
         '/novoroboartificial':(context)=>RoboArtificialNovoScreen(),
         '/novoroboterrestre':(context)=>RoboTerrestreNovoScreen(),
         '/novorobodrone':(context)=>RoboDroneNovoScreen(),
-        '/sucessocontruir':(context)=>GifConstruindo()
+        '/sucessocontruir':(context)=>GifConstruindo(),
+        '/detalhesrobodrone':(context)=>DroneDetalhesScreen(),
+        '/treinardrone':(context)=>TreinarDroneScreen(),
+        '/sucessotreinamento':(context)=>AnimacaoTreinamento()
       });
   }
 }

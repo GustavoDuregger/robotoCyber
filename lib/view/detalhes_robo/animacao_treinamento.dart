@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class GifConstruindo extends StatefulWidget {
+class AnimacaoTreinamento extends StatefulWidget {
   @override
-  _GifConstruindoState createState() => _GifConstruindoState();
+  _AnimacaoTreinamentoState createState() => _AnimacaoTreinamentoState();
 }
 
-class _GifConstruindoState extends State<GifConstruindo> {
+class _AnimacaoTreinamentoState extends State<AnimacaoTreinamento> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +23,7 @@ class _GifConstruindoState extends State<GifConstruindo> {
             ),
           ),
           Text(
-            "Seu robô já entrou na linha de produção e deve estar pronto em breve",
+            "Seu robô está treinando como nunca!!! Logo mais a cognição chegará ao infinito XD",
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.white70, fontSize: 20),
           ),
@@ -69,7 +69,7 @@ class _GifConstruindoState extends State<GifConstruindo> {
               ),
             ),
             onTap: () async {
-              Navigator.pushNamed(context, "/");
+              Navigator.pushNamed(context, "/meusrobosoptions");
             },
           ),
         ],
