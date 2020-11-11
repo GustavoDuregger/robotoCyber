@@ -65,11 +65,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Icon(
                                     Icons.adb,
                                     color: Colors.white,
-                                    size: 50,
+                                    size: alturaTela/15,
                                   ),
                                   new Padding(
                                     padding: new EdgeInsets.only(
-                                      top: 15,
+                                      top: alturaTela/70,
                                     ),
                                   ),
                                   Text("Meus Robôs",
@@ -102,11 +102,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Icon(
                                     Icons.add_circle,
                                     color: Colors.white,
-                                    size: 50,
+                                    size: alturaTela/15,
                                   ),
                                   new Padding(
                                     padding: new EdgeInsets.only(
-                                      top: 15,
+                                      top: alturaTela/70,
                                     ),
                                   ),
                                   Text("Construir",
@@ -139,11 +139,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Icon(
                                     Icons.group_work,
                                     color: Colors.white,
-                                    size: 50,
+                                    size: alturaTela/15,
                                   ),
                                   new Padding(
                                     padding: new EdgeInsets.only(
-                                      top: 15,
+                                      top: alturaTela/70,
                                     ),
                                   ),
                                   Text("Equipe",
@@ -176,11 +176,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Icon(
                                     Icons.gamepad,
                                     color: Colors.white,
-                                    size: 50,
+                                    size: alturaTela/15,
                                   ),
                                   new Padding(
                                     padding: new EdgeInsets.only(
-                                      top: 15,
+                                      top: alturaTela/70,
                                     ),
                                   ),
                                   Text("Controle",

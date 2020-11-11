@@ -23,7 +23,7 @@ class _TerrestreDetalhesScreenState extends State<TerrestreDetalhesScreen> {
         backgroundColor: Colors.deepPurpleAccent[400],
         title: Text(roboModel.nome, style: TextStyle(fontSize: 20.0, color: Colors.white)),
       ),
-      body: Padding(
+      body: SingleChildScrollView(child:Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -93,7 +93,7 @@ class _TerrestreDetalhesScreenState extends State<TerrestreDetalhesScreen> {
             )
           ],
         ),
-      ),
+      )),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.content_copy),
         backgroundColor: Colors.deepPurpleAccent[400],
