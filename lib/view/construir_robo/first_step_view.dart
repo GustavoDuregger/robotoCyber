@@ -175,7 +175,7 @@ class FirstStep extends StatelessWidget {
                       EdgeInsets.only(top: 10, left: 10, right: 30, bottom: 10),
                 ),
                 onTap: () async {
-                  Navigator.pushNamed(context, "/robodronelist");
+                  Navigator.pushNamed(context, "/novorobodrone");
                 },
               ),
               GestureDetector(
@@ -194,7 +194,7 @@ class FirstStep extends StatelessWidget {
                       EdgeInsets.only(top: 10, left: 10, right: 30, bottom: 10),
                 ),
                 onTap: () async {
-                  Navigator.pushNamed(context, "/roboterrestrelist");
+                  Navigator.pushNamed(context, "/novoroboterrestre");
                 },
               ),
                     GestureDetector(
@@ -212,7 +212,7 @@ class FirstStep extends StatelessWidget {
                   margin:
                       EdgeInsets.only(top: 10, left: 10, right: 30, bottom: 10),
                 ),
-                onTap: () async {Navigator.pushNamed(context, "/roboartificiallist");},
+                onTap: () async {Navigator.pushNamed(context, "/novoroboartificial");},
               ),
                   ])},
                   

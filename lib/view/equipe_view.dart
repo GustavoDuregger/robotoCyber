@@ -15,7 +15,9 @@ class _EquipeScreenState extends State<EquipeScreen> {
         children: <Widget>[
           
           Image.asset("assets/gifcontrole.gif"),
-          Text("Gustavo Duregger\nMurilo Melo\nYan Alexandre", style: TextStyle(color: Colors.white, fontSize: 30))
+          Text("Cyberpunk Team", style: TextStyle(color: Colors.white, fontSize: 30)),
+
+          Text("Gustavo Duregger\nMurilo Melo\nYan Alexandre", style: TextStyle(color: Colors.white, fontSize: 25))
           
         ],
       ),);

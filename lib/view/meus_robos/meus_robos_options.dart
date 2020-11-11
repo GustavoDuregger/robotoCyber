@@ -75,6 +75,12 @@ class _MeusRobosOptionsState extends State<MeusRobosOptions> {
                 ),
                 onTap: () async {Navigator.pushNamed(context, "/roboartificiallist");},
               ),
-            ])));
+            ])),
+            floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.deepPurpleAccent[400],
+        child: Icon(Icons.add),
+        onPressed: () async {
+         Navigator.pushNamed(context, "/construirrobofirststep");}));
+
   }
 }
