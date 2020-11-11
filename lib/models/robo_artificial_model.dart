@@ -29,7 +29,10 @@ class RoboArtificialModel {
   String toJson() => json.encode(toMap());
 
   factory RoboArtificialModel.fromMap(Map<String, dynamic> json) => RoboArtificialModel(
-        id: json["id"],
+        id: 
+          (json["id"] is int)  ? 
+            json["id"] : 
+            int.parse(json["id"]) ,
         nome: json["nome"],
         vidaUtil: json["vidaUtil"],
         estado: json["estado"],
@@ -37,7 +40,8 @@ class RoboArtificialModel {
         comportamento2: json["comportamento2"],
         comportamento3: json["comportamento3"],
         sistemaOperacional: json["sistemaOperacional"],
-        quantidade: json["quantidade"]
+        quantidade: (json["quantidade"] is int) ? json["quantidade"] : 
+            int.parse(json["quantidade"]) ,
       );
 
   Map<String, dynamic> toMap() => {

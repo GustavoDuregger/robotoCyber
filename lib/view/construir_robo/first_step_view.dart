@@ -90,7 +90,7 @@ class FirstStep extends StatelessWidget {
                               margin: EdgeInsets.all(1),
                             ),
                           ),
-                          onTap: () async {Navigator.pushNamed(context, "/meusrobosoptions");},
+                          onTap: () async {},
                         ),),
 
 

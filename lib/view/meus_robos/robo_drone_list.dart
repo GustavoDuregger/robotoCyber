@@ -22,7 +22,7 @@ class _RoboDroneListScreenState extends State<RoboDroneListScreen> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(64, 61, 85, 1),
+        backgroundColor: Colors.deepPurpleAccent[400],
         title: Text("Meus Robôs Drones"),
       ),
       body: FutureBuilder<List>(

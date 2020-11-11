@@ -24,7 +24,7 @@ class _RoboTerrestreListScreenState extends State<RoboTerrestreListScreen> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(64, 61, 85, 1),
+        backgroundColor: Colors.deepPurpleAccent[400],
         title: Text("Meus Robôs Terrestres"),
       ),
       body: FutureBuilder<List>(

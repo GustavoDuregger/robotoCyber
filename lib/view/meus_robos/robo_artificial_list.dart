@@ -23,7 +23,7 @@ class _RoboArtificialListScreenState extends State<RoboArtificialListScreen> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(64, 61, 85, 1),
+        backgroundColor: Colors.deepPurpleAccent[400],
         title: Text("Meus Robôs Artificiais"),
       ),
       body: FutureBuilder<List>(
