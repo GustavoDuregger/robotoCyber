@@ -9,6 +9,7 @@ class RoboTerrestreModel {
   String comportamento2;
   String comportamento3;
   String sistemaOperacional;
+  double cognicao;
   int quantidade;
 
   RoboTerrestreModel({
@@ -20,6 +21,7 @@ class RoboTerrestreModel {
     this.comportamento2,
     this.comportamento3,
     this.sistemaOperacional,
+    this.cognicao,
     this.quantidade
   });
 
@@ -40,6 +42,7 @@ class RoboTerrestreModel {
         comportamento2: json["comportamento2"],
         comportamento3: json["comportamento3"],
         sistemaOperacional: json["sistemaOperacional"],
+        cognicao: json["cognicao"].toDouble(),
         quantidade: (json["quantidade"] is int) ? json["quantidade"] : 
             int.parse(json["quantidade"]) ,
       );
@@ -53,6 +56,7 @@ class RoboTerrestreModel {
         "comportamento2": comportamento2,
         "comportamento3": comportamento3,
         "sistemaOperacional": sistemaOperacional,
+        "cognicao": cognicao,
         "quantidade": quantidade
       };
 }

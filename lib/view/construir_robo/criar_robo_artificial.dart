@@ -46,6 +46,7 @@ class _RoboArtificialNovoScreenState extends State<RoboArtificialNovoScreen> {
                       roboModel.vidaUtil= "Restam 3 Anos";
                       roboModel.estado = "Novo";
                       roboModel.quantidade = 1;
+                      roboModel.cognicao = 0.10;
                     },
                   ),
                   

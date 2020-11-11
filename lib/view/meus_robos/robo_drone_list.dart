@@ -102,11 +102,12 @@ class _RoboDroneListScreenState extends State<RoboDroneListScreen> {
       ),
       child: Container(
         decoration: BoxDecoration(
-          color: Color.fromRGBO(64, 61, 85, 1),
+          color: Colors.deepPurpleAccent[700]
         ),
         child: ListTile(
+          leading: Image.asset("assets/dronesfundo.png"),
           title: Text(
-            "ID: ${robos.id} - ",
+            "ID: ${robos.id} - " + robos.nome,
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -117,12 +118,25 @@ class _RoboDroneListScreenState extends State<RoboDroneListScreen> {
               Expanded(
                 flex: 3,
                 child: Text(
-                  robos.nome,
+                  robos.sistemaOperacional,
                   style: TextStyle(color: Colors.white70),
                 ),
               ),
             ],
           ),
+          trailing: Icon(
+            Icons.keyboard_arrow_right,
+            color: Colors.white,
+            size: 30.0,
+          ),
+          onTap: () async {
+            await Navigator.pushNamed(
+              context,
+              "/detalhesRoboDrone",
+              arguments: robos
+            );
+
+            setState(() {});}
         ),
       ),
     );

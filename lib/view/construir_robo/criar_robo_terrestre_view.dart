@@ -47,6 +47,8 @@ class _RoboTerrestreNovoScreenState extends State<RoboTerrestreNovoScreen> {
                       roboModel.vidaUtil= "Restam 3 Anos";
                       roboModel.estado = "Novo";
                       roboModel.quantidade = 1;
+                      roboModel.cognicao = 0.10;
+
                     },
                   ),
                   
